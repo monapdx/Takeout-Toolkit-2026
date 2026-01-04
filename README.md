@@ -1,5 +1,62 @@
 # Takeout Toolkit 🧰
 **Local-first pipelines for cleaning, transforming, and exploring your exported data**
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      fill: #111;
+    }
+    .box {
+      fill: #ffffff;
+      stroke: #cccccc;
+      stroke-width: 1.5;
+      rx: 8;
+    }
+    .label {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .sub {
+      font-size: 13px;
+      fill: #444;
+    }
+    .arrow {
+      stroke: #999;
+      stroke-width: 2;
+      marker-end: url(#arrowhead);
+    }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#999"/>
+    </marker>
+  </defs>
+
+  <!-- Boxes -->
+  <rect class="box" x="40" y="100" width="200" height="100"/>
+  <rect class="box" x="280" y="100" width="200" height="100"/>
+  <rect class="box" x="520" y="100" width="240" height="100"/>
+  <rect class="box" x="800" y="100" width="240" height="100"/>
+
+  <!-- Text -->
+  <text class="label" x="140" y="135" text-anchor="middle">Platform Export</text>
+  <text class="sub" x="140" y="160" text-anchor="middle">Gmail / Search / Facebook / ChatGPT</text>
+
+  <text class="label" x="380" y="135" text-anchor="middle">Raw Files</text>
+  <text class="sub" x="380" y="160" text-anchor="middle">.mbox · .json · .html</text>
+
+  <text class="label" x="640" y="135" text-anchor="middle">Takeout Toolkit</text>
+  <text class="sub" x="640" y="160" text-anchor="middle">Local Python Pipelines</text>
+
+  <text class="label" x="920" y="135" text-anchor="middle">Clean Outputs</text>
+  <text class="sub" x="920" y="160" text-anchor="middle">CSV / JSON · Optional Explorer</text>
+
+  <!-- Arrows -->
+  <line class="arrow" x1="240" y1="150" x2="280" y2="150"/>
+  <line class="arrow" x1="480" y1="150" x2="520" y2="150"/>
+  <line class="arrow" x1="760" y1="150" x2="800" y2="150"/>
+</svg>
 
 Takeout Toolkit is a modular collection of **Python-based pipelines** for processing data exports from major platforms like **Gmail, Google Search, Facebook, and ChatGPT**.
 
